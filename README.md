@@ -7,6 +7,6 @@ sd.bdt seems small enough to make the assumption that it'll fit in memory entire
 up whatsoever.
 
 ## The UXM bug
-It seems that the community-standard UXM implementation uses the padded file size for the carving and doesn't strip
-zeroes. This means that anything teaching these files will need some crazy hack to accommodate for extra padding (which 
+It think that the community-standard UXM implementation uses the padded file size for the carving and doesn't strip
+zeroes. This means that anything reading these files will need some crazy hack to accommodate for extra padding (which 
 is what pissed me off).
